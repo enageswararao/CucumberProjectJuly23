@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions
         (
-                 features= {".//Features/Login.feature"},
+                 features= {".//Features/Login2.feature"},
                 
                 glue="stepDefinitions",
 		/*
@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 		 * "json:reports/myreport.json", "rerun:target/rerun.txt", },
 		 */
                  monochrome=true,
-                tags = "@sanity"	//Scenarios tagged with @sanity,
+                 tags = "@sanity"	//Scenarios tagged with @sanity,
                
         )
 
